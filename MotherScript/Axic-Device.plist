@@ -1,0 +1,14 @@
+/*Writted in AXIC-GO for .plist */
+
+
+
+go.createlist(.plist){
+	mot-id(ABC-11HFS).;
+	mot-id(ABB-09IHJ).;
+	cpu.z80(../script/Community/Z80).; /*Script for Z80 cpu writted by Community */
+	mot-id(FGS-40ADA).;
+}
+
+
+call.FUNCTION(go.create%mem+);
+	
